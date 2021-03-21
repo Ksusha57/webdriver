@@ -1,0 +1,26 @@
+pipeline {
+  agent any
+
+  tools {nodejs "node"}
+
+  stages {
+
+    stage('Cloning Git') {
+      steps {
+        git 'https://github.com/Ksusha57/webdriver'
+      }
+    }
+
+    stage('Install dependencies') {
+      steps {
+        bat 'npm install'
+      }
+    }
+
+    stage('Test') {
+      steps {
+         bat 'npx wdio run ./wdio.conf.js'
+      }
+    }
+  }
+}
