@@ -1,0 +1,73 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1617902528874' stop='1617902538316'>
+    <name>The Internet Guinea Pig Website</name>
+    <title>The Internet Guinea Pig Website</title>
+    <test-cases>
+        <test-case start='1617902528902' status='passed' stop='1617902536003'>
+            <name>As a user, I can log into the secure area</name>
+            <title>As a user, I can log into the secure area</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+            </parameters>
+            <steps>
+                <step start='1617902528913' status='passed' stop='1617902534044'>
+                    <name>Given I am on the login page</name>
+                    <title>Given I am on the login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1617902534044' status='passed' stop='1617902535720'>
+                    <name>When I login with tomsmith and SuperSecretPassword!</name>
+                    <title>When I login with tomsmith and SuperSecretPassword!</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1617902535720' status='passed' stop='1617902535998'>
+                    <name>Then I should see a flash message saying You logged into a secure area!</name>
+                    <title>Then I should see a flash message saying You logged into a secure area!</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1617902536006' status='passed' stop='1617902538312'>
+            <name>As a user, I can log into the secure area</name>
+            <title>As a user, I can log into the secure area</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+            </parameters>
+            <steps>
+                <step start='1617902536007' status='passed' stop='1617902536471'>
+                    <name>Given I am on the login page</name>
+                    <title>Given I am on the login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1617902536471' status='passed' stop='1617902538059'>
+                    <name>When I login with foobar and barfoo</name>
+                    <title>When I login with foobar and barfoo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1617902538059' status='passed' stop='1617902538310'>
+                    <name>Then I should see a flash message saying Your username is invalid!</name>
+                    <title>Then I should see a flash message saying Your username is invalid!</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
