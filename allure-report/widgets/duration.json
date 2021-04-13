@@ -1,0 +1,11 @@
+[ {
+  "uid" : "fd51b5909c090a5f",
+  "name" : "As a user, I can log into the secure area",
+  "time" : {
+    "start" : 1617902536006,
+    "stop" : 1617902538312,
+    "duration" : 2306
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

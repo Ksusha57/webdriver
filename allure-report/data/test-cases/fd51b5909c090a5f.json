@@ -1,0 +1,121 @@
+{
+  "uid" : "fd51b5909c090a5f",
+  "name" : "As a user, I can log into the secure area",
+  "fullName" : "The Internet Guinea Pig Website.As a user, I can log into the secure area",
+  "historyId" : "5a026ea14ee4e7624685c96e8adc85a5",
+  "time" : {
+    "start" : 1617902536006,
+    "stop" : 1617902538312,
+    "duration" : 2306
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am on the login page",
+      "time" : {
+        "start" : 1617902536007,
+        "stop" : 1617902536471,
+        "duration" : 464
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When I login with foobar and barfoo",
+      "time" : {
+        "start" : 1617902536471,
+        "stop" : 1617902538059,
+        "duration" : 1588
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then I should see a flash message saying Your username is invalid!",
+      "time" : {
+        "start" : 1617902538059,
+        "stop" : 1617902538310,
+        "duration" : 251
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Internet Guinea Pig Website"
+  }, {
+    "name" : "testClass",
+    "value" : "The Internet Guinea Pig Website"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I can log into the secure area"
+  }, {
+    "name" : "package",
+    "value" : "The Internet Guinea Pig Website"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.90"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3463d33e07b4e0d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617902528902,
+        "stop" : 1617902536003,
+        "duration" : 7101
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fd51b5909c090a5f.json",
+  "parameterValues" : [ "chrome-89.0.4389.90" ]
+}
