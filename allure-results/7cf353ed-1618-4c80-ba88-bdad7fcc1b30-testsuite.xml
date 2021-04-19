@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1617902528874' stop='1617902538316'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1618854358600' stop='1618854367282'>
     <name>The Internet Guinea Pig Website</name>
     <title>The Internet Guinea Pig Website</title>
     <test-cases>
-        <test-case start='1617902528902' status='passed' stop='1617902536003'>
+        <test-case start='1618854358622' status='passed' stop='1618854364910'>
             <name>As a user, I can log into the secure area</name>
             <title>As a user, I can log into the secure area</title>
             <labels>
@@ -12,22 +12,22 @@
                 <label name='thread' value='0-0'/>
             </labels>
             <parameters>
-                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.104'/>
             </parameters>
             <steps>
-                <step start='1617902528913' status='passed' stop='1617902534044'>
+                <step start='1618854358634' status='passed' stop='1618854361839'>
                     <name>Given I am on the login page</name>
                     <title>Given I am on the login page</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1617902534044' status='passed' stop='1617902535720'>
+                <step start='1618854361839' status='passed' stop='1618854364732'>
                     <name>When I login with tomsmith and SuperSecretPassword!</name>
                     <title>When I login with tomsmith and SuperSecretPassword!</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1617902535720' status='passed' stop='1617902535998'>
+                <step start='1618854364732' status='passed' stop='1618854364905'>
                     <name>Then I should see a flash message saying You logged into a secure area!</name>
                     <title>Then I should see a flash message saying You logged into a secure area!</title>
                     <attachments/>
@@ -36,7 +36,7 @@
             </steps>
             <attachments/>
         </test-case>
-        <test-case start='1617902536006' status='passed' stop='1617902538312'>
+        <test-case start='1618854364912' status='passed' stop='1618854367278'>
             <name>As a user, I can log into the secure area</name>
             <title>As a user, I can log into the secure area</title>
             <labels>
@@ -45,22 +45,22 @@
                 <label name='thread' value='0-0'/>
             </labels>
             <parameters>
-                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.104'/>
             </parameters>
             <steps>
-                <step start='1617902536007' status='passed' stop='1617902536471'>
+                <step start='1618854364913' status='passed' stop='1618854365368'>
                     <name>Given I am on the login page</name>
                     <title>Given I am on the login page</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1617902536471' status='passed' stop='1617902538059'>
+                <step start='1618854365368' status='passed' stop='1618854367123'>
                     <name>When I login with foobar and barfoo</name>
                     <title>When I login with foobar and barfoo</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1617902538059' status='passed' stop='1617902538310'>
+                <step start='1618854367123' status='passed' stop='1618854367276'>
                     <name>Then I should see a flash message saying Your username is invalid!</name>
                     <title>Then I should see a flash message saying Your username is invalid!</title>
                     <attachments/>
