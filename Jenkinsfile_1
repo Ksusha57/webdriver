@@ -11,15 +11,9 @@ pipeline {
       }
     }
 
-    stage('Install dependencies') {
-      steps {
-        bat 'npm install'
-      }
-    }
-
     stage('Test') {
       steps {
-         bat 'npx wdio run ./wdio.conf.js'
+         bat 'npx wdio'
       }
     }
   }
