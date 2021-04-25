@@ -53,9 +53,9 @@ exports.config = {
         maxInstances: 5,
         //
         browserName: 'chrome',
-        'goog:chromeOptions': {
-			binary: 'C://Program Files (x86)/Google/Chrome/Application/chrome.exe',
-		},
+        // 'goog:chromeOptions': {
+		// 	binary: 'C://Program Files (x86)/Google/Chrome/Application/chrome.exe',
+		// },
         'goog:chromeOptions': { 
             args: ["--headless", "user-agent=...","--disable-gpu","--no-sandbox"]
         },
