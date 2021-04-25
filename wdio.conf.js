@@ -54,7 +54,7 @@ exports.config = {
         //
         browserName: 'chrome',
         'goog:chromeOptions': {
-			binary: 'C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe',
+			binary: 'C:\Program Files (x86)\Google\Chrome\Application\chrome.exe',
 		},
         // 'goog:chromeOptions': { 
         //     args: ["--headless", "user-agent=...","--disable-gpu","--window-size=1440,735"]
