@@ -53,9 +53,6 @@ exports.config = {
         maxInstances: 5,
         //
         browserName: 'chrome',
-        // 'goog:chromeOptions': {
-		// 	binary: 'C://Program Files (x86)/Google/Chrome/Application/chrome.exe',
-		// },
         'goog:chromeOptions': { 
             args: ["--headless","--no-sandbox","disable-dev-shm-usage"]
         },
@@ -134,13 +131,13 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
-    // reporters: [['allure', {
-    //     outputDir: 'allure-results',
-    //     disableWebdriverStepsReporting: true,
-    //     disableWebdriverScreenshotsReporting: true,
-    //     useCucumberStepReporter: true,
-    // }]],
-    reporters: ['spec'],
+    reporters: [['allure', {
+        outputDir: 'allure-results',
+        disableWebdriverStepsReporting: true,
+        disableWebdriverScreenshotsReporting: true,
+        useCucumberStepReporter: true,
+    }]],
+    // reporters: ['spec'],
 
 
     //
