@@ -57,7 +57,7 @@ exports.config = {
 		// 	binary: 'C://Program Files (x86)/Google/Chrome/Application/chrome.exe',
 		// },
         'goog:chromeOptions': { 
-            args: ["--headless", "user-agent=...","--disable-gpu","--no-sandbox"]
+            args: ["--headless","--no-sandbox"]
         },
         acceptInsecureCerts: true,
         // If outputDir is provided WebdriverIO can capture driver session logs
