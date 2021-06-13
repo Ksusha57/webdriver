@@ -54,7 +54,10 @@ exports.config = {
         //
         browserName: 'chrome',
         'goog:chromeOptions': { 
-            args: ["--headless","--no-sandbox","disable-dev-shm-usage"]
+            args: [
+            "--headless",
+            "--no-sandbox",
+            "disable-dev-shm-usage"]
         },
         acceptInsecureCerts: true,
         // If outputDir is provided WebdriverIO can capture driver session logs
